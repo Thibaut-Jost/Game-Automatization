@@ -1,9 +1,9 @@
 #import
-from Game.CookieClicker import CookieClicker
-from Game.BeeSwarmSimulator import BeeSwarm
-from Game.Logic.LeafMoveMouse import leafProgram
-from Game.Logic.AntiAFK import ClickAndMove
-from Game.IdleWizard import IdleWizard
+from Model.Game.CookieClicker import CookieClicker
+from Model.Game.BeeSwarmSimulator import BeeSwarm
+from Model.Game.Logic.LeafMoveMouse import leafProgram
+from Model.Game.Logic.AntiAFK import ClickAndMove
+from Model.Game.IdleWizard import IdleWizard
 
 """
 Fonction pour sélectionner et démarrer un jeu en fonction du nom donné.
